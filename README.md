@@ -9,3 +9,8 @@
   <li>command line: <strong>npm i</strong></li>
   <li>command line: <strong>gulp</strong></li>
 </ul>
+<hr>
+For check updates:<br>
+&nbsp;&nbsp;&nbsp;command line: <strong>npm i -g npm-check-updates</strong><br>
+use:<br>
+&nbsp;&nbsp;&nbsp;command line: <strong>ncu</strong>
