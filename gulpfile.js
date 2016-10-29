@@ -86,9 +86,6 @@ gulp.task('watch', function() {
 	gulp.watch('src/fonts/**/*.*', ['fonts:build']);
 });
 
-
-
-
 gulp.task('default', [
 	'build',
 	'webserver',
