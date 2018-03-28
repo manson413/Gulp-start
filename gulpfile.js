@@ -16,6 +16,10 @@ gulp.task('webserver', function () {
 		server: {
 			baseDir: 'build'
 		},
+		port: 3000,
+    		ui: {
+      			port: 4000
+    		},
 		// tunnel: true,
 		notify: false
 	});
