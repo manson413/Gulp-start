@@ -14,6 +14,8 @@
   ],
   "dependencies": {
     "normalize.css": "*",
-    "jquery": "2.*"
+    "jquery": "3.*",
+    "bootstrap-4-grid": "*",
+    "Font-Awesome": "5.0.13"
   }
 }

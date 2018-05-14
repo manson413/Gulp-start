@@ -4,17 +4,23 @@
   "description": "",
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "normalize.css": "*",
+    "jquery": "3.*",
+    "bootstrap-4-grid": "*",
+    "@fortawesome/fontawesome-free-webfonts": "*"
+  },
   "devDependencies": {
-    "browser-sync": "^2.23.6",
-    "del": "^3.0.0",
+    "browser-sync": "^2.17.5",
+    "del": "^2.2.2",
     "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^5.0.0",
-    "gulp-clean-css": "^3.9.2",
-    "gulp-imagemin": "^4.1.0",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-clean-css": "^2.0.13",
+    "gulp-imagemin": "^3.0.3",
     "gulp-rigger": "^0.5.8",
-    "gulp-sass": "^3.1.0",
-    "gulp-sourcemaps": "^2.6.4",
-    "gulp-uglify": "^3.0.0",
-    "imagemin-pngquant": "^5.0.1"
+    "gulp-sass": "^4.0.0",
+    "gulp-sourcemaps": "^2.2.0",
+    "gulp-uglify": "^2.0.0",
+    "imagemin-pngquant": "^5.0.0"
   }
 }

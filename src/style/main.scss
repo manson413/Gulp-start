@@ -1,14 +1,12 @@
 /*
 * Bower party (from bower_components)
 */
-@import "../../bower_components/normalize.css/normalize.css";
-
-/*
-* Fonts party (from src/fonts)
-*/
-@import "../fonts/fonts";
+@import "../../node_modules/normalize.css/normalize";
+@import "../../node_modules/bootstrap-4-grid/css/grid";
+@import "../../node_modules/@fortawesome/fontawesome-free-webfonts/css/fontawesome";
 
 /*
 * Custom (from src/style/partials)
 */
+@import "partials/fonts";
 @import "partials/app";

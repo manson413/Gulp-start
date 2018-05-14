@@ -1,8 +1,4 @@
-/*
- * Bower party (from bower_components)
- */
-//= ../../bower_components/jquery/dist/jquery.js
-
+//= ../../node_modules/jquery/dist/jquery.min.js
 
 /*
  * Custom (from src/js/partials)
