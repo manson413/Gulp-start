@@ -37,7 +37,7 @@ gulp.task('style:build', function () {
       .pipe(sourcemaps.init())
       .pipe(sass())
       .pipe(prefixer(['last 10 versions']))
-      .pipe(cleanCSS())
+      // .pipe(cleanCSS())
       .pipe(sourcemaps.write())
       .pipe(gulp.dest('build/css'))
       .pipe(reload({stream: true}));
@@ -47,7 +47,7 @@ gulp.task('js:build', function () {
   gulp.src('src/js/main.js')
       .pipe(rigger())
       .pipe(sourcemaps.init())
-      .pipe(uglify())
+      // .pipe(uglify())
       .pipe(sourcemaps.write())
       .pipe(gulp.dest('build/js'))
       .pipe(reload({stream: true}));
