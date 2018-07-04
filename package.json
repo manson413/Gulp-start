@@ -5,10 +5,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "normalize.css": "*",
     "jquery": "3.*",
-    "bootstrap-4-grid": "*",
-    "@fortawesome/fontawesome-free-webfonts": "*"
+    "normalize.css": "*",
+    "bootstrap-grid": "*",
+    "@fortawesome/fontawesome-free-webfonts": "*",
+    "owl.carousel": "^2.3.4"
   },
   "devDependencies": {
     "browser-sync": "^2.17.5",
